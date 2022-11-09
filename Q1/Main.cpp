@@ -11,7 +11,6 @@ int main()
 	int pMaxValue = 0; // variable to store where the location that has the max value that was entered by the user.
 	int usrSize = 0; // variable to store user input array size
 	int tmp = 0; // variable to store user value input temporarily
-	
 	cout << "Please enter the number of values you wish to compare: ";
 	cin >> usrSize;
 
