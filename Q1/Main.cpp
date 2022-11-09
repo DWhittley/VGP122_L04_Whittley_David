@@ -34,7 +34,7 @@ int main()
 		}
 	}
 
-	cout << "The largest value you entered was: " << p[pMaxValue] << " and was entry #" << pMaxValue << endl;
+	cout << "The largest value you entered was: " << p[pMaxValue - 1] << " and was entry #" << pMaxValue << endl;
 
 	delete [] p; //free the memory allocated to the dynamic 
 	return 0;
