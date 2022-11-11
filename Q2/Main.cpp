@@ -27,5 +27,6 @@ int main()
 
 	cout << "The factorial value of " << n << " is " << *ptr << endl;
 
+	delete ptr;
 	return 0;
 }
